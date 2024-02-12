@@ -348,6 +348,9 @@
   "weaponType.85": "'85",
   "weaponType.89": "'89",
 
+  "inkType.glowing": "Tinta reluciente",
+  "inkType.clear": "Tinta clara",
+
   "subtitle.shooter_firing": "Lanzatintas disparando",
   "subtitle.blaster_firing": "Lanzamotas disparando",
   "subtitle.blaster_explosion": "Mota de tinta explotando",
@@ -361,6 +364,9 @@
   "subtitle.dualie_firing": "Duales disparando",
   "subtitle.dualie_dodge": "Duales esquivando",
   "subtitle.slosher_shot": "Derramatic disparado",
+  "subtitle.splatling_shot": "Garabateador disparando",
+  "subtitle.splatling_charge": "Garabateador cargando",
+  "subtitle.splatling_ready": "Garabateador listo",
   "subtitle.sub_throw": "Arma secundaria lanzada",
   "subtitle.sub_detonating": "Arma secundaria detonando",
   "subtitle.sub_detonated": "Arma secundaria detonada",
@@ -375,11 +381,13 @@
   "subtitle.squid_revert": "Calamar se convierte en niño",
   "subtitle.ink_submerge": "Calamar se sumerge",
   "subtitle.ink_surface": "Calamar emerge",
+  "subtitle.ink_swim": "Calamar nada en tinta",
 
   "container.ink_vat": "Creación de tinteros",
   "container.ammo_knights_workbench": "Creación de armas",
 
   "gui.ammo_knights_workbench.craft": "Crear",
+  "gui.ammo_knights_workbench.empty": "¡Encuentra planos para desbloquear más armas!",
 
   "ink_color.invert": "%s Invertido",
   "ink_color.splatcraft.orange": "Naranja",
@@ -443,12 +451,9 @@
   "ink_color.splatcraft.dye_green": "Verde organico",
   "ink_color.splatcraft.dye_red": "Rojo organico",
   "ink_color.splatcraft.dye_black": "Negro organico",
-
   "ink_color.splatcraft.color_lock_a": "Color amistoso",
   "ink_color.splatcraft.color_lock_b": "Color hostil",
-
   "ink_color.splatcraft.default": "Tinta básica",
-
   "death.attack.splatcraft:water": "%1$s ha sido disuelto en agua",
   "death.attack.splatcraft:water.player": "%1$s ha sido disuelto en agua mientras intentaba huir de %s",
   "death.attack.splatcraft:splat": "%1$s fue liquidado",
@@ -465,6 +470,8 @@
   "entity.splatcraft.ink_projectile": "Proyectil de tinta",
   "entity.splatcraft.ink_squid": "Calamar de tinta",
   "entity.splatcraft.squid_bumper": "Barrera de calamar",
+  "entity.splatcraft.spawn_shield": "Escudo del Punto Base",
+
   "entity.splatcraft.splat_bomb": "Bomba básica",
   "entity.splatcraft.burst_bomb": "Bomba rápida",
   "entity.splatcraft.suction_bomb": "Bomba ventosa",
@@ -482,11 +489,16 @@
   "entity.splatcraft.torpedo": "Torpedo",
 
   "gamerule.splatcraft.inkDecay": "Decaimiento de la tinta",
+  "gamerule.splatcraft.inkDecayRate": "Posibilidad de deterioro de la tinta",
+  "gamerule.splatcraft.inkDecayRate.description": "Determina la probabilidad de que la tinta se descomponga por tick",
+  "gamerule.splatcraft.inkDestroysFoliage": "Tinta destruye follaje.",
+  "gamerule.splatcraft.inkDestroysFoliage.description": "Determina si los cultivos, los árboles jóvenes y las plantas reemplazables se destruyen cuando se entinta el bloque debajo de ellos.",
   "gamerule.splatcraft.coloredPlayerNames": "Nombres entintados",
   "gamerule.splatcraft.keepMatchItems": "Conservar armas al morir",
   "gamerule.splatcraft.keepMatchItems.description": "Te permite conserver ciertos items inportantes de Splatcraft, como armas, tanques de tinta y cosmeticos, al morir. Estos items son determinados con la etiqueta splatcraft:match_items",
   "gamerule.splatcraft.waterDamage": "Daño por agua",
   "gamerule.splatcraft.inkHealing": "Regenerar vida al sumergir en tinta",
+  "gamerule.splatcraft.inkHealingConsumesHunger": "Regeneración de la salud al sumergirse consume el hambre.",
   "gamerule.splatcraft.dropCrateLoot": "Abrir cajas al romperlas",
   "gamerule.splatcraft.requireInkTank": "Requerir tinta al usar armas",
   "gamerule.splatcraft.universalInk": "Tinta universal",
@@ -499,11 +511,17 @@
   "gamerule.splatcraft.inkMobDamagePercentage.description": "Determina cuando daño reciben los mobs contra armas de tinta normales.",
   "gamerule.splatcraft.infiniteInkInCreative": "Tinta infinita en modo creativo",
   "gamerule.splatcraft.infiniteInkInCreative.description": "Los jugadores en modo creativo no necesitarán un tanque de tinta ni necesitarán recargar tinta para usar armas Splatcraft.",
+  "gamerule.splatcraft.inkableGround": "Suelo entintable",
+  "gamerule.splatcraft.inkableGround.description": "Permite que las armas entinten bloques",
+  "gamerule.splatcraft.rechargeableInkTank": "Tanque de tinta recargable",
+  "gamerule.splatcraft.rechargeableInkTank.description": "Permite que los tanques de tinta recuperen tinta pasivamente, la tasa de recarga aumenta al nadar en tinta",
 
   "status.coord_set.a": "Primera posición establecida en X: %s Y: %s Z: %s",
   "status.coord_set.b": "Segunda posición establecida en X: %s Y: %s Z: %s",
   "status.no_ink": "Tinta Baja!",
+  "status.cant_use": "No se puede usar!",
   "status.remote_mode": "Modalidad de Control remoto cambiada a %s",
+  "status.remote.undefined_area": "§c¡Conjunto de coordenadas inválido!",
   "status.scan_turf.out_of_world": "§cNo se pueden revisar bloques por fuera del mundo",
   "status.scan_turf.score": "%s = %s%%",
   "status.scan_turf.winner": "=El equipo %s gana!",
@@ -513,6 +531,11 @@
   "status.clear_ink.success": "Se limpiaron %s bloques exitosamente",
   "status.change_color.out_of_world": "§cNo se pueden revisar bloques por fuera del mundo",
   "status.change_color.success": "Se recoloraron %s bloques a %s exitosamente",
+
+  "status.blueprint.invalid": "Este plano está vacío.",
+  "status.blueprint.already_unlocked.single": "Ya tienes este plano.",
+  "status.blueprint.already_unlocked": "Ya has completado este conjunto de planos.",
+  "status.blueprint.unlock": "% ha sido desbloqueado.",
 
   "commands.scanturf.success": "Se han escaneado %s bloques exitosamente",
   "commands.inkcolor.success.single": "Se ha cambiado el color de tinta de %s a %s",
@@ -524,8 +547,27 @@
   "commands.colorscores.list.count": "Mostrando criterios para %s colores:",
   "commands.colorscores.list.entry": "%s: se muestra como '%s'",
 
+  "commands.stage.add.success": "Escenario [%s] agregado exitosamente",
+  "commands.stage.remove.success": "Escenario [%s] eliminado exitosamente",
+  "commands.stage.setting.success.default": "Reinicio configuración %s para escenario [%s]",
+  "commands.stage.setting.success": "Configuración %s para escenario [%s] a %s",
+  "commands.stage.setting.get.default": "Configuración %s para escenario [%s] esta establecida como default",
+  "commands.stage.setting.get": "Configuración %s para escenario [%s] esta establecida como %s",
+  "commands.stage.setting.area.success": "Moví esquina %s para escenario [%s] a (%s, %s, %s)",
+  "commands.stage.setting.area.get": "Esquina %s para escenario [%s] esta establecida como (%s, %s, %s)",
+  "commands.stage.teams.set.success": "Etiquetado %s bloques en %s como parte de equipo [%s] ",
+  "commands.stage.teams.remove.success": "Equipo [%s] en %s eliminado exitosamente, afectando %s bloques",
+  "commands.stage.teams.get.success": "Equipo [%s] en %s is establecido como %s",
+  "commands.stage.warp.success": "Teletransportado %s jugadores(s) exitosamente a [%s]",
+
   "arg.colorCriterion.notFound": "No existen criterios para el color %s",
   "arg.inkColor.notFound": "Color desconocido %s",
+  "arg.stageWarp.noSpawnPads": "No se a encontraron Puntos Bases disponibles en escenario [%s]",
+  "arg.stageWarp.noPlayers": "No se encontraron jugadores con un Punto Bases que coincida con el color de su tinta en el escenario [%s]",
+  "arg.stage.notFound": "Escenario [%s] no existe",
+  "arg.stage.alreadyExists": "Escenario [%s] ya existe",
+  "arg.stageTeam.notFound": "Equipo %s desconocido for para escenario [%s]",
+  "arg.stageSetting.notFound": "Configuración %s no existe",
 
   "stat.splatcraft.turf_wars_won": "Combates territorial ganados",
   "stat.splatcraft.squid_time": "Time as Squid",
@@ -540,5 +582,8 @@
   "key.subWeaponHotkey": "Arma secundaria tecla directa",
   "key.specialWeaponHotkey": "Arma especial tecla directa",
 
-  "attribute.splatcraft.ink_swim_speed": "Velocidad extra al nadar en tinta"
+  "attribute.splatcraft.ink_swim_speed": "Velocidad extra al nadar en tinta",
+
+  "disconnect.lost": "Se produjo un error de conexión."
 }
+
