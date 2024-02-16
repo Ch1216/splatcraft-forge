@@ -521,7 +521,7 @@
   "status.no_ink": "Tinta Baja!",
   "status.cant_use": "No se puede usar!",
   "status.remote_mode": "Modalidad de Control remoto cambiada a %s",
-  "status.remote.undefined_area": "§c¡Conjunto de coordenadas inválido!",
+  "status.remote.undefined_area": "§c¡Conjunto de coordenadas inválidos!",
   "status.scan_turf.out_of_world": "§cNo se pueden revisar bloques por fuera del mundo",
   "status.scan_turf.score": "%s = %s%%",
   "status.scan_turf.winner": "=El equipo %s gana!",
@@ -586,4 +586,3 @@
 
   "disconnect.lost": "Se produjo un error de conexión."
 }
-
