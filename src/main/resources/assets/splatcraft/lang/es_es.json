@@ -557,20 +557,20 @@
   "commands.stage.setting.area.get": "Esquina %s para escenario [%s] esta establecida como (%s, %s, %s)",
   "commands.stage.teams.set.success": "Etiquetado %s bloques en %s como parte de equipo [%s] ",
   "commands.stage.teams.remove.success": "Equipo [%s] en %s eliminado exitosamente, afectando %s bloques",
-  "commands.stage.teams.get.success": "Equipo [%s] en %s is establecido como %s",
+  "commands.stage.teams.get.success": "Equipo [%s] en %s es establecido como %s",
   "commands.stage.warp.success": "Teletransportado %s jugadores(s) exitosamente a [%s]",
 
   "arg.colorCriterion.notFound": "No existen criterios para el color %s",
   "arg.inkColor.notFound": "Color desconocido %s",
-  "arg.stageWarp.noSpawnPads": "No se a encontraron Puntos Bases disponibles en escenario [%s]",
-  "arg.stageWarp.noPlayers": "No se encontraron jugadores con un Punto Bases que coincida con el color de su tinta en el escenario [%s]",
+  "arg.stageWarp.noSpawnPads": "No se a encontraron Puntos Base disponibles en escenario [%s]",
+  "arg.stageWarp.noPlayers": "No se encontraron jugadores con un Punto Base que coincida con el color de su tinta en el escenario [%s]",
   "arg.stage.notFound": "Escenario [%s] no existe",
   "arg.stage.alreadyExists": "Escenario [%s] ya existe",
-  "arg.stageTeam.notFound": "Equipo %s desconocido for para escenario [%s]",
+  "arg.stageTeam.notFound": "Equipo %s desconocido para escenario [%s]",
   "arg.stageSetting.notFound": "Configuración %s no existe",
 
   "stat.splatcraft.turf_wars_won": "Combates territorial ganados",
-  "stat.splatcraft.squid_time": "Time as Squid",
+  "stat.splatcraft.squid_time": "Tiempo como calamar",
   "stat.splatcraft.blocks_inked": "Bloques entintados",
   "stat.splatcraft.weapons_crafted": "Armas creadas",
   "stat.splatcraft.inkwells_crafted": "Tinteros llenados",
@@ -586,4 +586,3 @@
 
   "disconnect.lost": "Se produjo un error de conexión."
 }
-
