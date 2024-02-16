@@ -84,7 +84,7 @@
   "item.splatcraft.blueprint.tooltip": "¡§o§7Úsalo para desbloquear una nueva arma!",
   "item.splatcraft.blueprint.tooltip.empty": "§o§7Parece estar en blanco.",
 
-  "item.splatcraft.blueprint.tooltip.shooters": "Conjungto de Lanzatintas",
+  "item.splatcraft.blueprint.tooltip.shooters": "Conjungto de Rociadores",
   "item.splatcraft.blueprint.tooltip.blasters": "Conjunto de Lanzamotas",
   "item.splatcraft.blueprint.tooltip.rollers": "Conjunto de Rodillos",
   "item.splatcraft.blueprint.tooltip.chargers": "Conjunto de Cargatintas",
@@ -153,7 +153,7 @@
   "item.splatcraft.n-zap83": "N-ZAP 83",
   "item.splatcraft.n-zap85": "N-ZAP 85",
   "item.splatcraft.n-zap89": "N-ZAP 89",
-  "item.splatcraft.jet_squelcher": "Megasopladoro",
+  "item.splatcraft.jet_squelcher": "Megasoplador",
   "item.splatcraft.custom_jet_squelcher": "Megasoplador adaptado",
 
   "item.splatcraft.blaster": "Lanzamotas",
@@ -284,7 +284,7 @@
   "weaponStat.gauge.full": "■",
   "weaponStat.gauge.empty": "□",
 
-  "weaponTab.splatcraft:weapon_workbench_tabs/shooters": "Lanzatintas",
+  "weaponTab.splatcraft:weapon_workbench_tabs/shooters": "Rociadores",
   "weaponTab.splatcraft:weapon_workbench_tabs/blasters": "Lanzamotas",
   "weaponTab.splatcraft:weapon_workbench_tabs/rollers": "Rodillos",
   "weaponTab.splatcraft:weapon_workbench_tabs/chargers": "Cargatintas",
@@ -351,7 +351,7 @@
   "inkType.glowing": "Tinta reluciente",
   "inkType.clear": "Tinta clara",
 
-  "subtitle.shooter_firing": "Lanzatintas disparando",
+  "subtitle.shooter_firing": "Rociadores disparando",
   "subtitle.blaster_firing": "Lanzamotas disparando",
   "subtitle.blaster_explosion": "Mota de tinta explotando",
   "subtitle.roller_fling": "Tinta de rodillo arrojada",
